@@ -18,13 +18,15 @@
 # print(car)
 # 6
 # print("Karra jadvali")
-# son = int(input("Biron-bir son kiriting\n>>>"))
-# s = 1
-# while s<11:
-#     s += 1
-#     print(f"{son}*{s}={son*s}")
-#     if son =='exit':
+# while True:
+#     son = input("Biron-bir son kiriting (exit for quit)\n>>>")
+#     if son == 'exit':
 #         break
+#     son = int(son)
+#     s = 1
+#     while s<11:
+#         print(f"{son}*{s}={son*s}")
+#         s += 1
 # 7
 # bunday holatda manavi hatolikni beradi: '<' not supported between instances of 'str' and 'int'
 # Ya'ni 'qiymatga' to'gri vazifa berilmagan misol uchun int, str
